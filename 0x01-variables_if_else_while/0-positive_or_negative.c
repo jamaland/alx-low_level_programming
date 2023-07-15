@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /* 
- * betty style doc for function main : 
- * function for verifing a random number if it is : 
+ * betty style doc for function main :
+ * function for verifing a random number if it is :
  * postive,negative or null
- * */
+*
 int main(void)
 {
 	int n;
