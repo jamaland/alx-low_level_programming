@@ -1,12 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * betty style doc for function main :
- * function for verifing a random number if it is :
- * postive,negative or null
+/**
+ * main - Entry point
+ * 
+ * Description: 'the program's verify a number type'
+ * @parameter: no parameter needed
+ * 
+ * Return: Always 0 (Success)
 */
-int main(void)
+ int main(void)
 {
 	int n;
 
