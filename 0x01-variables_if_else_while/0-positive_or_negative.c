@@ -3,10 +3,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
  * Description: 'the program's verify a number type'
  * @parameter: no parameter needed
- * 
  * Return: Always 0 (Success)
 */
  int main(void)
