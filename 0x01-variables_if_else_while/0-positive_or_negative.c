@@ -10,8 +10,8 @@ int main(void)
         if(n==0)
                 printf("is zero");
         else if(n>0)
-                printf("is positif");
+                printf("is positive");
         else
-                printf("is negatif");
+                printf("is negative");
         return (0);
 }
