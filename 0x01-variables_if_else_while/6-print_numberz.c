@@ -7,13 +7,12 @@
  * Return: Always 0 (Success)
 */
 int main(void)
-{
-	char digits[] = "0123456789";
+{	
 	int i = 0;
 
 	while (i < 10)
 	{
-		putchar(digits[i]);
+		putchar(48 + i);
 		i++;
 	}
 	putchar('\n');
