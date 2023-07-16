@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz\n", q[] = "q", e[] = "e";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int i = 27;
 
 	while (i > 0)
