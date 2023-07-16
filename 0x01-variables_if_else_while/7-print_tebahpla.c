@@ -11,7 +11,7 @@ int main(void)
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 26;
 
-	while (i >= 0)
+	while (i > 0)
 	{
 		putchar(alpha[i]);
 		i--;
