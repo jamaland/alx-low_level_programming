@@ -9,7 +9,7 @@
 int main(void)
 {
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 26;
+	int i = 25;
 
 	while (i >= 0)
 	{
