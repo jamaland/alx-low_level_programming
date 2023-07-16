@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	char digits = "0123456789";
+	char digits[] = "0123456789";
 	int i = 0;
 
 	while (i < 10)
