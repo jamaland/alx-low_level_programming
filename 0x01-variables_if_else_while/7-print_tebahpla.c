@@ -13,7 +13,6 @@ int main(void)
 
 	while (i > 0)
 	{
-		if (alpha[i] != q[0] && alpha[i] != e[0])
 		putchar(alpha[i]);
 		i--;
 	}
