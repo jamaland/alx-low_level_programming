@@ -8,12 +8,12 @@
 */
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz\n", q = "q", e = "e";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz\n", q[] = "q", e[] = "e";
 	int i = 0;
 
 	while (i < 27)
 	{
-		if (alpha[i] != q && alpha[i] != e)
+		if (alpha[i] != q[0] && alpha[i] != e[0])
 		putchar(alpha[i]);
 		i++;
 	}
