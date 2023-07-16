@@ -8,8 +8,11 @@
 int main(void)
 {
 	char alpha[]="abcdefghijklmnopqrstuvwxyz";
+	int i=0;
 
-	for(int i=0;i<6;i++)
+	while (i < 26){
 		putchar(alpha[i]);
+		i++;
+	}
 	return (0);
 }
