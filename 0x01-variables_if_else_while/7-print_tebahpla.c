@@ -8,13 +8,14 @@
 */
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int i = 28;
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
+	int i = 26;
 
 	while (i >= 0)
 	{
 		putchar(alpha[i]);
 		i--;
 	}
+	putchar('\n');
 	return (0);
 }
