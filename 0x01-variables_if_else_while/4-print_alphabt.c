@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <string.h>
 /**
  * main - Entry point
  * Description: 'the program's verify a number type'
@@ -13,7 +14,7 @@ int main(void)
 
 	while (i < 27)
 	{
-		if (alpha[i] != "q" && alpha[i] != "e")
+		if (strcmp (alpha[i], "q") != 0 && strcmp (alpha[i], "e") != 0)
 		putchar(alpha[i]);
 		i++;
 	}
