@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (alpha[i] != q[0] && alpha[i] != e[0])
 		putchar(alpha[i]);
-		i--
+		i--;
 	}
 	putchar('\n');
 	return (0);
