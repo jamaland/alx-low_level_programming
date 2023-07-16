@@ -8,11 +8,12 @@
 */
 int main(void)
 {
+	char alpha[] = "0123456789abcdef";
 	int i = 0;
 
-	while (i <= 15)
+	while (i < 16)
 	{
-		putchar(i);
+		putchar(alpha[i]);
 		i++;
 	}
 	putchar(10);
