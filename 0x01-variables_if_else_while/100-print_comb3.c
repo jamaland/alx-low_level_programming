@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (j = i; j < 10;j++)
 		{
-			if (j != j)
+			if (j != i)
 			{
 				putchar(i + 48);
 				putchar(j + 48);
