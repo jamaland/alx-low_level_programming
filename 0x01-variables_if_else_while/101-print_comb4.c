@@ -14,20 +14,17 @@ int main(void)
 	{
 		for (j = i; j < 10; j++)
 		{
-			if (i != j)
+			for (k = j; k < 10; k++)
 			{
-				for (k = j; k < 10; k++)
+				if (k != j && i != j)
 				{
-					if (k != j)
-					{
-						putchar(i + 48);
-						putchar(j + 48);
-						putchar(k + 48);
-						if ((i == 7) && (j == 8) && (k == 9))
+					putchar(i + 48);
+					putchar(j + 48);
+					putchar(k + 48);
+					if ((i == 7) && (j == 8) && (k == 9))
 						break;
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
