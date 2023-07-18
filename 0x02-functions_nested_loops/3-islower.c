@@ -6,7 +6,7 @@
  * Description: 'This program verify a character if is lowercase '
  * Return: 1 (Success) 0 (failure)
 */
-int _islower(char c)
+int _islower(int c)
 {
 	if (islower(c))
 		return (1);
