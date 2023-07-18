@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * _islower - Entry point
- * @parameter: c character to verify
+ * @c: The character to print  character to verify
  * Description: 'This program verify a character if is lowercase '
  * Return: 1 (Success) 0 (failure)
 */
