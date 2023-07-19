@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_last_digit - Entry point
- * @n: The arg of func 
+ * @n: The arg of func
  * Description: 'This program verify the entred arg '
  * Return: Always n (Success)
 */
