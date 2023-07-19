@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 /**
  * print_last_digit - Entry point
@@ -7,7 +8,7 @@
 */
 int print_last_digit(int n)
 {
-	int result = n % 10;
+	int result = abs(n % 10);
 
 	_putchar('0' + result);
 	return (result);
