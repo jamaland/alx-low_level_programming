@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: 'This program print numbers using an _putchar '
- * Return: 0
+ * Return: ALWAYS 0
 */
 
 int main(void)
