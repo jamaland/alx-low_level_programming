@@ -1,4 +1,5 @@
 #include <ctype.h>
+#include "main.h"
 /**
  * _isupper - func
  * Description: 'the program's verify a number type'
@@ -7,5 +8,5 @@
 */
 int _isupper(int c)
 {
-		return (isupper(c));
+	return (isupper(c));
 }
