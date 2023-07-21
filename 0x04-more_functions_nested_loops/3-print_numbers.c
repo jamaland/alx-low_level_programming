@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_alphabet - Entry point
- * Description: 'This program print alphabet using an external function '
- * Return: Always 0 (Success)
+ * print_numbers - Entry point
+ * Description: 'This program print numbers using an _putchar '
+ * Return: Void
 */
-void print_alphabet(void)
+void print_numbers(void)
 {
 	int i = 0;
 
