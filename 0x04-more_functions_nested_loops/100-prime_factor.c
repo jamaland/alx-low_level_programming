@@ -14,7 +14,7 @@ int main(void)
 		if (n % i == 0)
 		{
 			j = 2;
-			while(j <= i / 2)
+			while (j <= i / 2)
 			{
 				if (i % j == 0)
 					printf("%ld\n", i);
