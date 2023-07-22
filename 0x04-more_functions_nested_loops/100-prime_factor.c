@@ -7,12 +7,12 @@
 */
 int main(void)
 {
-	int i = 0, j, n = 612852475143;
+	long int i = 0, n = 612852475143;
 
 	while (i < n)
 	{
 		if (n % i == 0)
-			printf("%d\n", i);
+			printf("%ld\n", i);
 		i++;
 	}
 	return (0);
