@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int month = 02, day = 60, year = 2000, i;
+	int month = 02, day = 60, year = 1991, i;
 
 	if (year % 4 == 0 && (year % 400 == 0 || !(year % 100 == 0)))
 	{
