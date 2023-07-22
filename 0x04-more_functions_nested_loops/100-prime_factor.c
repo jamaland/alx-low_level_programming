@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	long int i = 0, j, n = 1231952;
+	long int i = 0, j, n = 612852475143;
 
 	while (i < n)
 	{
