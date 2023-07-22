@@ -7,9 +7,9 @@
 */
 int main(void)
 {
-	long int i = 0, j, n = 612852475143;
+	long int i = 2, j, n = 612852475143;
 
-	while (i < n)
+	while (i <= n)
 	{
 		if (n % i == 0)
 		{
