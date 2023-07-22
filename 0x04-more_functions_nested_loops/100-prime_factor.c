@@ -16,7 +16,7 @@ int main(void)
 			j = 2;
 			while(j <= i / 2)
 			{
-				if (j % i == 0)
+				if (i % j == 0)
 					printf("%ld\n", i);
 				j++;
 			}
