@@ -2,13 +2,10 @@
 /**
  * main - takes a date and prints how many days are
  * Description: function to verify a date
- * @month: month in number format
- * @day: day of month
- * @year: year
- * Return: void
+ * Return: (0)
  */
 
-void main(void)
+int main(void)
 {
 	int month = 02, day = 60, year = 2000;
 
@@ -36,4 +33,5 @@ void main(void)
 			printf("Remaining days: %d\n", 365 - day);
 		}
 	}
+	return (0);
 }
