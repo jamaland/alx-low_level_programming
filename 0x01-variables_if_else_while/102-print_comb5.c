@@ -14,7 +14,7 @@ int main(void)
 		for (j = i; j < 10; j++)
 			for (k = 0; k < 10; k++)
 				for (l = k; l < 10; l++)
-                                        if (l != j && l != i)
+                                        if (l != j && k != i)
                                         {
                                                 putchar(i + 48);
                                                 putchar(j + 48);
