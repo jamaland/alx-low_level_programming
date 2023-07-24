@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * print_array - Entry point
- * Description: 'This program prints n elements of an array of integers, 
+ * Description: 'This program prints n elements of an array of integers,
  * followed by a new line. '
  * @a: Integer
  * @n: Integer
