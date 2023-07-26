@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * reverse_array - Entry point
- * Description: 'This program compares two strings'
+ * Description: 'This program reverses the content of an array of integers.'
  * @a: Pointer of int
  * @n: Integer
  * Return: void
