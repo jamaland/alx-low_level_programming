@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 /**
  * print_chessboard - Entry point
  * Description: 'This program print the chessboard.'
