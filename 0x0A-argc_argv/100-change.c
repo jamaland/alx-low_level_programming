@@ -26,9 +26,9 @@ int main(int argc, char *argv[])
 		}
 		if (cents % 10 >= 0)
 		{
-			change +=cents / 10;
+			change += cents / 10;
 			cents = cents % 10;
-                }
+		}
 		if (cents % 5 >= 0)
 		{
 			change += cents / 5;
@@ -49,4 +49,4 @@ int main(int argc, char *argv[])
 	}
 	printf("%d\n", change);
 	return (0);
-}          
+}
