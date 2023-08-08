@@ -7,14 +7,16 @@
  * @str: Param of type char
  * Return: Char
 */
-char *_strdup(char* str)
+char *_strdup(char *str)
 {
 	char *cp_str;
 
 	cp_str = malloc(sizeof(str));
 	cp_str = strdup(str);
-	if ( str == NULL || cp_str == NULL)
+	if (str == NULL || cp_str == NULL)
+	{
 		return (NULL);
+	}
 	else
 	{
 		free(cp_str);
