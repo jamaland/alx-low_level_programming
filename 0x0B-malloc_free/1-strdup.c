@@ -9,17 +9,9 @@
 */
 char *_strdup(char *str)
 {
-	char *cp_str, *temp;
-	int size = 0;
+	char *cp_str;
 
-	temp = str;
-	while (*str)
-	{
-		size++;
-		str++;
-	}
-	str = temp;
-	cp_str = malloc(sizeof(char) * size);
+	cp_str = malloc(sizeof(str) - sizeof(21));
 	if (str == NULL || cp_str == NULL)
 	{
 		return (NULL);
