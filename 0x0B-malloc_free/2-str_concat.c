@@ -11,7 +11,7 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	char *cp_str, *tmp;
+	char *cp_str;
 	int size1 = 0, size2 = 0, i;
 
 	while (*s1)
