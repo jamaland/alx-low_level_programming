@@ -1,6 +1,7 @@
 #include "main.h"
 #include <string.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * str_concat - Entry point
@@ -37,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		for (i = 0; i < size1; i++)
 			cp_str[i] = *(s1 - size1 + i);
-		putchar(*(s2 + i));
+		printf("i>%s", *(s2 + i));
 		for (; i < size1 + size2; i++)
 			cp_str[i] = *(s2 - size2 + i);
 		cp_str[i] = '\0';
