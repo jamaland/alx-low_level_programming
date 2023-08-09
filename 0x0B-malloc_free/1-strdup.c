@@ -11,7 +11,7 @@
 char *_strdup(char *str)
 {
 	char *cp_str;
-	int size = 0;
+	int size = 0, i;
 
 	while (*str)
 	{
@@ -26,7 +26,9 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		free(cp_str);
+		for (i = 0; i < size; i++)
+			cp_str[i] = *(str + i);
+		cp_str[i] = '\0';
 		if (strdup(str) == NULL)
 			return (NULL);
 		return (strdup(str));
