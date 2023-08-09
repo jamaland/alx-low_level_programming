@@ -11,21 +11,23 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	char *cp_str;
+	char *cp_str, *tmp;
 	int size1 = 0, size2 = 0, i;
 
+	tmp = s1;
 	while (*s1)
 	{
 		size1++;
 		s1++;
 	}
+	s1 = tmp;
+	tmp = s2;
 	while (*s2)
 	{
 		size2++;
 		s2++;
 	}
-	*s1 = *(s1 - size1);
-	*s2 = *(s2 - size2);
+	s2 = tmp;
 	cp_str = malloc(sizeof(char) * (size1 + size2 + 1));
 	if (cp_str == NULL)
 	{
