@@ -1,6 +1,7 @@
 #include "main.h"
 #include <string.h>
 #include <stdlib.h>
+
 /**
  * _strdup - Entry point
  * Description: 'This program create an array of chars'
@@ -10,8 +11,15 @@
 char *_strdup(char *str)
 {
 	char *cp_str;
+	int size = 0;
 
-	cp_str = malloc(sizeof(str - 21));
+	while (*str)
+	{
+		size++;
+		str++;
+	}
+	str = str - size;
+	cp_str = malloc(sizeof(char) * (size + 1));
 	if (str == NULL || cp_str == NULL)
 	{
 		return (NULL);
