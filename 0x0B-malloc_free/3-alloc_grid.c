@@ -26,8 +26,8 @@ int **alloc_grid(int width, int height)
 	else
 	{
 		for (i = 0; i < width * height; i++)
-			for (j = 0; j < heigth; j++)
+			for (j = 0; j < height; j++)
 				matrix[i][j] = 0;
-		return (matrix);
+		return (**matrix);
 	}
 }
