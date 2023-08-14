@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * print_dog - Print entity dog
  * Description: 'This program print a entity dog'
@@ -14,5 +14,5 @@ void print_dog(struct dog *d)
 		d->name = "(nil)";
 	else if (d->owner == NULL)
 		d->owner = "(nil)";
-	printf("Name:%s\nAge:%0.6f\nOwner%s\n", d->name, d->age, d->owner);
+	printf("Name: %s\nAge: %0.6f\nOwner: %s\n", d->name, d->age, d->owner);
 }
