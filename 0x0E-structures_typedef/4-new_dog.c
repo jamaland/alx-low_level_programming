@@ -17,12 +17,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (name == NULL)
 	{
-		free(name);
 		return (NULL);
 	}
 	if (owner == NULL)
 	{
-		free(owner);
 		return (NULL);
 	}
 	while (name[n_name])
