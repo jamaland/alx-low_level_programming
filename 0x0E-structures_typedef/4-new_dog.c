@@ -4,7 +4,7 @@
 /**
  * new_dog - Return entity new dog
  * Description: 'This program create entity dog'
- * @a: name of dog
+ * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
  * Return: NUll or dog
