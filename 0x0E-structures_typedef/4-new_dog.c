@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * new_dog - Return entity new dog
@@ -33,8 +34,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		name_[i] = name[i];
 	name_[i] = '\0';
 
-	owner = malloc(n_owner + 1);
-	if (owner == NULL)
+	owner_ = malloc(n_owner + 1);
+	if (owner_ == NULL)
 		return (NULL);
 	for (i = 0; owner[i]; i++)
 		owner_[i] = owner[i];
