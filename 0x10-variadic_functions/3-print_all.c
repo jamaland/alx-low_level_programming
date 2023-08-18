@@ -1,5 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_all - Function
  * Description: 'This program print all Params'
@@ -13,12 +14,12 @@ void print_all(const char * const format, ...)
 	char *str;
 	int i = 0, flag = 1;
 
+	va_start(ap, format);
 	while (format == NULL)
 	{
 		printf("\n");
 		return;
 	}
-	va_start(ap, format);
 	while (format[i])
 	{
 		flag = 1;
