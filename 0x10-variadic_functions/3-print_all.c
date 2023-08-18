@@ -20,7 +20,7 @@ void print_all(const char * const format, ...)
 		printf("\n");
 		return;
 	}
-	while (format[i])
+	while (format && format[i])
 	{
 		flag = 1;
 		switch (format[i])
