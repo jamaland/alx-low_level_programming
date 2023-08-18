@@ -13,12 +13,12 @@ void print_all(const char * const format, ...)
 	char *str;
 	int i = 0, flag = 1;
 
-	va_start(ap, format);
-	if (format == NULL)
+	while (format == NULL)
 	{
 		printf("\n");
 		return;
 	}
+	va_start(ap, format);
 	while (format[i])
 	{
 		flag = 1;
