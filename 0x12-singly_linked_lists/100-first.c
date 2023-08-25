@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /* Constructors */
-void main_cons(void) __attribute__((cons));
+void main_cons(void) __attribute__((constructor));
 /**
  * main_cons - Constructor of function
  * Return: Nothing
