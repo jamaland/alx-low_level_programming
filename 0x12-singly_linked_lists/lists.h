@@ -1,5 +1,6 @@
 #ifndef H_LISTS
 #define H_LISTS
+#include <stdlib.h>
 /**
  * struct list_s - LinkedList
  * @str: string
