@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * add_node - Function 
+ * add_node - Function
  * @head: list_t pointer the head struct
  * @str: string
  * Return: head of list
