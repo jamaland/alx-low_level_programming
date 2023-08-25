@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <string.h>
-
+#include <stdlib.h>
 /**
  * add_node - Function 
  * @head: list_t pointer the head struct
@@ -16,8 +16,8 @@ list_t *add_node(list_t **head, const char *str)
 	if (list == NULL)
 		return (NULL);
 
-	while (str[length])
-		length++;
+	while (str[len])
+		len++;
 
 	list->len = length;
 	list->str = strdup(str);
