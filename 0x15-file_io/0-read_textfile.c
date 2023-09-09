@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 /*
- * ssize_t read_textfile - Program that reads a 
+ * ssize_t read_textfile - Program that reads a
  * text file and prints it to the POSIX standard output.
  * @filename: File name to read.
  * @letters: size of letters on the given file.
@@ -39,5 +39,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buffer);
 	if (lenr != lenw)
 		return (0);
-	return (lenw); 
+	return (lenw);
 }
