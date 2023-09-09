@@ -20,7 +20,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	temp = malloc(sizeof(char) * letters);
-	if (temp == NULL)
+	if (temp == NULL){
+		free(temp);
 		return (0);
 
 	fdo = open(filename, O_RDONLY);
