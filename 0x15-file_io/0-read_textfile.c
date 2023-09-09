@@ -11,7 +11,7 @@
  * @letters: size of letters on the given file.
  * Return: 0 if Null.
  */
-ssize_t read_textfile(const char *filename, size_t letters);
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
 	ssize_t lenr, lenw;
