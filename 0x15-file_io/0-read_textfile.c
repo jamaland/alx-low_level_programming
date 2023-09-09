@@ -4,8 +4,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <fcntl.h>
-/*
- * ssize_t read_textfile - Program that reads a
+/**
+ * read_textfile - Program that reads a
  * text file and prints it to the POSIX standard output.
  * @filename: File name to read.
  * @letters: size of letters on the given file.
@@ -43,6 +43,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (fdw < 0)
 		return (0);
 	free(temp);
-        close(fdo);
+	close(fdo);
 	return ((ssize_t)fdw);
 }
