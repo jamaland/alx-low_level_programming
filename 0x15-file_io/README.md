@@ -1,7 +1,7 @@
 <div class="panel-body">
     <h2>Resources</h2>
 
-<p><strong>Read or watch</strong>:</p>
+<p><strong>Read or watch the following if you're a mamber of ALX program</strong>:</p>
 
 <ul>
 <li><a href="/rltoken/Duva-9Fjyskt39R__Nnazg" title="File descriptors" target="_blank">File descriptors</a> </li>
